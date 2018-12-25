@@ -86,7 +86,7 @@ a.ui-state-default.ui-state-highlight.ui-state-active {
       height: 72px;
       width: 72px;
       overflow: hidden;
-      margin:33% auto;
+      margin:31% auto;
     }
 .atom-spinner .spinner-inner {
       position: relative;
@@ -232,4 +232,5 @@ span {}
 .main-panel>.content {
     min-height: calc(100vh);
 }
-#cntr{min-height: 79vh;}
+/*#cntr{min-height: 17vh;}
+.autocen{margin: 28% auto;}*/
