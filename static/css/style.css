@@ -189,7 +189,7 @@ input.vdatetime-input {
 }
 
 .dark-edition .vdatetime-popup {
-    width: 450px;
+    width: 350px;
     background: #041623;
     color: #eea939;
 }
@@ -210,7 +210,7 @@ span {}
     background: #eea939;
 }
 .dark-edition .vdatetime-calendar__month__day:hover > span > span {
-    background: #010308;
+    background: #030f1d;
 }
 .box {
     color: rgb(254, 171, 58);
@@ -234,3 +234,26 @@ span {}
 }
 /*#cntr{min-height: 17vh;}
 .autocen{margin: 28% auto;}*/
+.vdatetime-overlay {
+  display: none;
+}
+.vdatetime-popup {
+  border-radius: 5px;
+margin: 0 auto;
+z-index: unset;
+position: unset;
+top: unset;
+left: unset;
+transform: none;
+margin-top: 2rem;
+}
+.vdatetime-popup__header {
+    border-radius: 5px;
+}
+.vdatetime-popup__actions__button.vdatetime-popup__actions__button--confirm {
+    display: none;
+}
+.footer{
+      height: max-content;
+      padding: 0;
+}
