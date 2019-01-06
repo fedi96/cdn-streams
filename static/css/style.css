@@ -257,3 +257,19 @@ margin-top: 2rem;
       height: max-content;
       padding: 0;
 }
+::-webkit-scrollbar {
+  width: .6rem;
+}
+::-webkit-scrollbar-thumb {
+    margin-left: 1rem;
+      background: #555;
+      box-shadow: 0 0 1px 1px hsla(0,0%,100%,.25);
+      -webkit-transition: opacity .2s linear;
+    background-clip: padding-box;
+    border-radius: 7px;
+    min-height: 10px;
+    opacity: 0;
+    position: absolute;
+    right: 2px;
+    transition: opacity .2s linear;
+}
